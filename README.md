@@ -42,3 +42,16 @@ To install Node.js using nvm (Node Version Manager), follow the instructions bel
 ```
     yarn start
 ```
+
+## Notes:
+- The project is using Tailwind CSS for styling.
+- The project is using React Beautiful DnD for drag and drop functionality.
+- The project is using Next.js for server-side rendering and routing.
+- The project is using TypeScript for static type checking.
+- The project is using ESLint for code linting.
+- The project is using Prettier for code formatting.
+- The project is using Husky for git hooks.
+- The project is using Lint Staged for linting before committing.
+
+## Issues:
+- The project is using React Beautiful DnD for drag and drop functionality, but it is not recommended for Next.js 14 and above.
