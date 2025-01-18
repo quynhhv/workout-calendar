@@ -1,0 +1,19 @@
+{
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-console": "error",
+    "func-call-spacing": "error",
+    "@typescript-eslint/no-empty-function": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "eqeqeq": ["error", "smart"]
+  },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"]
+}

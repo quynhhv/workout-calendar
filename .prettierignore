@@ -1,0 +1,6 @@
+# Ignore artifacts:
+.husky
+node_modules
+yarn.lock
+.yarn
+.next

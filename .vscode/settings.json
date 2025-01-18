@@ -1,0 +1,102 @@
+{
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.next": true,
+    "**/.public": true,
+    "**/.node_modules": true,
+    "**/.git": true,
+    "**/.yarn.lock": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.yarn": true,
+    "**/.next": true,
+    "**/.public": true,
+    "**/.node_modules": true,
+    "**/.git": true,
+    "**/.yarn.lock": true
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "dart.lineLength": 150,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [200],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "editor.tabSize": 2,
+  "git.ignoreMissingGitWarning": true,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 300,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 300,
+  "diffEditor.wordWrap": "off",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "insert",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "css.lint.fontFaceProperties": "error",
+  "css.lint.emptyRules": "error",
+  "css.lint.vendorPrefix": "error",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.foldingStrategy": "indentation",
+  "editor.codeActionsOnSave": {},
+  "files.trimTrailingWhitespace": true,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "workbench.startupEditor": "none",
+  "files.insertFinalNewline": true,
+  "editor.bracketPairColorization.enabled": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+
+  "editor.rulers": [],
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.autoIndent": "none",
+  "diffEditor.experimental.showEmptyDecorations": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
+}
